@@ -1,0 +1,8 @@
+dash==2.6.0
+pandas
+dash_bootstrap_components
+dash_bootstrap_templates
+warnings
+numpy
+datetime
+locale
