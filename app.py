@@ -14,6 +14,7 @@ load_figure_template("LUX")
 lo.setlocale(lo.LC_ALL, "french")
 
 app = Dash(__name__, external_stylesheets = [dbc.themes.LUX, dbc.icons.BOOTSTRAP])
+server = app.server
 
 LOGO = "https://corentinducloux.fr/dossier_img/icons8-diskette-32.png"
 url = dcc.Location(id = "url", pathname = "/")
