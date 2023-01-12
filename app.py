@@ -4,12 +4,10 @@ from dash_bootstrap_templates import load_figure_template
 import dash_bootstrap_components as dbc
 import plotly.express as px
 import pandas as pd
-import warnings
 import numpy as np
 import datetime as dt
 import locale as lo
 
-warnings.simplefilter(action = "ignore", category = FutureWarning)
 load_figure_template("LUX") 
 lo.setlocale(lo.LC_ALL, "french")
 
